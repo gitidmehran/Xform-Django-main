@@ -102,23 +102,14 @@ DATABASES = {
     #     "ENGINE": "django.db.backends.sqlite3",
     #     'NAME': BASE_DIR / 'db_morphemes3.sqlite3',
     # # },
-    # "default": {
-    #     'ENGINE': 'django.db.backends.mysql',
-    #     'NAME': 'new_database_admin',
-    #     'USER': 'root',
-    #     'PASSWORD': '',
-    #     'HOST': '127.0.0.1',
-    #     'PORT': '3306', 
-    # },
-    
-    'default': {
+    "default": {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': os.getenv('MYSQL_DATABASE', 'mrph_testdb'),
-        'USER': os.getenv('MYSQL_USER', 'root'),
-        'PASSWORD': os.getenv('MYSQL_PASSWORD', 'ZiaIqbal@123'),
-        'HOST': '49.13.21.18',
-        'PORT': '33061',
-},
+        'NAME': 'new_database_admin',
+        'USER': 'root',
+        'PASSWORD': '',
+        'HOST': '127.0.0.1',
+        'PORT': '3306', 
+    },
 }
 
 # Password validation
