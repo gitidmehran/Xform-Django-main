@@ -1,0 +1,37 @@
+{
+    "Local": {
+        "hostname": "127.0.0.1",
+        "username": "root",
+        "password": "",
+        "database": "morpheme_new_8_22_23",
+        "port": "3306"
+    },
+    "Test": {
+        "hostname": "49.13.21.18",
+        "username": "root",
+        "password": "ZiaIqbal@123",
+        "database": "mrph_testdb",
+        "port": "33061"
+    },
+    "Dev": {
+        "hostname": "49.13.21.18",
+        "username": "root",
+        "password": "ZiaIqbal@123",
+        "database": "mrph_devdb",
+        "port": "33061"
+    },
+    "Qa": {
+        "hostname": "49.12.218.175",
+        "username": "root",
+        "password": "ZiaIqbal@123",
+        "database": "mrph_qadb",
+        "port": "3306"
+    },
+    "Prod": {
+        "hostname": "168.119.153.134",
+        "username": "root",
+        "password": "ZiaIqbal@123",
+        "database": "mrph_proddb",
+        "port": "3306"
+    }
+}

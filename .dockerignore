@@ -1,0 +1,30 @@
+# Ignore version control files
+.git
+.gitignore
+
+# Ignore Python bytecode files
+*.pyc
+__pycache__
+
+# Ignore database files
+# *.sqlite3
+
+# Ignore static files (if served separately)
+/static
+
+# Ignore media files (if served separately)
+# /media
+
+# Ignore Docker-related files
+Dockerfile
+.dockerignore
+
+# Ignore development and local configuration files
+# *.log
+*.env
+*.ini
+# *.db
+# *.sqlite3
+*.pyo
+*.pyc
+*.pyd
